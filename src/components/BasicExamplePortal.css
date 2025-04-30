@@ -1,0 +1,17 @@
+.modal {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px gray;
+  padding: 10px;
+  border: 3px dashed rgb(83, 72, 11);
+  background: linear-gradient(
+    to right,
+    rgba(255, 182, 25, 0.5),
+    rgba(255, 100, 53, 0.5)
+  );
+}
